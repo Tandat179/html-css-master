@@ -38,4 +38,65 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  width: 1440px;
+}
+
+.header {
+  height: 56px;
+  background-color: #ffffff;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left-header {
+  display: flex;
+}
+.header-icon__menu {
+  padding-top: 16px;
+  padding-left: 23px;
+}
+.header-icon__logo {
+  margin-top: 18px;
+  padding-left: 24px;
+}
+.header-icon__vn {
+  top: 12px;
+  padding-left: 4px;
+}
+.header-search-box {
+  left: 638px;
+  width: 602px;
+  height: 40px;
+  display: flex;
+  padding-top: 8px;
+}
+.header-search-input {
+  width: 538px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px 0 0 2px;
+  border-right: none;
+  outline: none;
+  font-size: 20px;
+  color: tomato;
+  background: none;
+}
+.header-search-button {
+  width: 64px;
+  height: 40px;
+  background-color: bisque;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #CCCCCC;
+  border-radius: 0 2px 2px 0;
+  text-align: center;
+  background: rgb(248, 248, 248);
+  font-size: 20px;
+  border-left: 1px solid #CCCCCC;
+}
+
 /*# sourceMappingURL=app.css.map */
